@@ -2,121 +2,158 @@
 <html>
 <head>
     <title>HTML Tags and Form Example</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="one">
+        <h1>SK College of Engineering (SKCE)</h1>
 
-    <!-- Section 1: General HTML Tags -->
-    <h1>General HTML Tags Section</h1>
+        <h2>About SKCE</h2>
 
-<h2>About SVCE</h2>
+        <p>
+            SK College of Engineering (SKCE) is one of the premier
+            engineering institutions in Tamil Nadu. The college is known for its
+            academic excellence, research activities, and placement opportunities.
+        </p>
 
-    <p>
-        HTML (HyperText Markup Language) is used to create web pages. It is a base structure of web page.
-    </p>
+        <hr>
+
+        <h3>Departments Offered</h3>
+
+        <ol>
+            <li>Computer Science and Engineering (CSE)</li>
+            <li>Information Technology (IT)</li>
+            <li>Electronics and Communication Engineering (ECE)</li>
+            <li>Electrical and Electronics Engineering (EEE)</li>
+            <li>Mechanical Engineering</li>
+            <li>Civil Engineering</li>
+        </ol>
+
+        <h3>Campus Facilities</h3>
+
+        <ul>
+            <li>Central Library</li>
+            <li>Computer Laboratories</li>
+            <li>Hostel Facilities</li>
+            <li>Sports Complex</li>
+            <li>Wi-Fi Enabled Campus</li>
+            <li>Placement and Training Cell</li>
+        </ul>
+
+        <h3>Department Strength Table</h3>
+
+        <table class="two" >
+            <tr>
+                <th>Department</th>
+                <th>Duration</th>
+                <th>Degree</th>
+            </tr>
+
+            <tr>
+                <td>CSE</td>
+                <td>4 Years</td>
+                <td>B.E.</td>
+            </tr>
+
+            <tr>
+                <td>IT</td>
+                <td>4 Years</td>
+                <td>B.Tech.</td>
+            </tr>
+
+            <tr>
+                <td>ECE</td>
+                <td>4 Years</td>
+                <td>B.E.</td>
+            </tr>
+
+            <tr>
+                <td>EEE</td>
+                <td>4 Years</td>
+                <td>B.E.</td>
+            </tr>
+        </table>
+    </div>
+
 
     <hr>
 
-    <h3>Text Formatting Tags</h3>
-    <p>
-        <b>Bold Text</b><br>
-        <i>Italic Text</i><br>
-        <u>Underlined Text</u><br>
-        <strong>Strong Text</strong><br>
-        <em>Emphasized Text</em>
-    </p>
-    <h3>Hyperlink Example</h3>
+        <h3 class="three">College Campus Image</h3>
 
-    <p>
-     <a href="https://www.thestackly.com/">Visit our company</a>
-      <br>
-    </p>
-    <h3>Image Example</h3>
-    <p>
-        <img src="Panda.jpg" 
-             alt="Panda Image">
-    </p>
-
-    <h3>List Example</h3>
-
-    <h4>Ordered List</h4>
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ol>
-
-<h3>Campus Facilities</h3>
-
-<ul>
-    <li>Central Library</li>
-    <li>Computer Laboratories</li>
-    <li>Hostel Facilities</li>
-    <li>Sports Complex</li>
-    <li>Wi-Fi Enabled Campus</li>
-    <li>Placement and Training Cell</li>
-</ul>
-
-    <h3>Table Example</h3>
-    <table>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Department</th>
-        </tr>
-        <tr>
-            <td>101</td>
-            <td>Karthikeyan</td>
-            <td>IT</td>
-        </tr>
-        <tr>
-            <td>102</td>
-            <td>Rahul</td>
-            <td>CSE</td>
-        </tr>
-    </table>
+        <img class="four" src="SKCE.jpg" alt="SKCE Campus">
 
     <hr>
 
-    <!-- Section 2: Form Section -->
-    <h1>Student Registration Form</h1>
+        <h3>Vision</h3>
 
-    <form>
-        <label>Full Name:</label><br>
-        <input type="text" name="fullname" placeholder="Enter Full Name">
-        <br><br>
+        <p>
+            To be a world-class institution for engineering education, scientific
+            research, and technological innovation.
+        </p>
 
-        <label>Email:</label><br>
-        <input type="email" name="email" placeholder="Enter Email Address">
-        <br><br>
+        <h3>Mission</h3>
 
-        <label>Password:</label><br>
-        <input type="password" name="password" placeholder="Enter Password">
-        <br><br>
+        <p>
+            To provide quality education, promote innovation, and develop competent
+            engineers with ethical values and social responsibility.
+        </p>
+    <hr>
 
-        <label>Gender:</label><br>
-        <input type="radio" name="gender" value="Male"> Male
-        <input type="radio" name="gender" value="Female"> Female
-        <br><br>
+    <div class="four">
+        <h1>Student Registration Form</h1>
 
-        <label>Skills:</label><br>
-        <input type="checkbox" name="html"> HTML
-        <input type="checkbox" name="css"> CSS
-        <input type="checkbox" name="javascript"> JavaScript
-        <br>
+        <form class="five">
+            <label>Full Name:</label><br>
+            <input type="text" name="fullname" placeholder="Enter Full Name">
+            <br><br>
 
-        <br><label>Department:</label>
-        <br>
-        <select>
-            <option>CSE</option>
-            <option>IT</option>
-            <option>ECE</option>
-            <option>EEE</option>
-        </select>
-        <br><br>
+            <label>Email:</label><br>
+            <input type="email" name="email" placeholder="Enter Email Address">
+            <br><br>
 
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-    </form>
+            <label>Password:</label><br>
+            <input type="password" name="password" placeholder="Enter Password">
+            <br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <br><br>
+
+            <label>Skills:</label><br>
+            <input type="checkbox" name="html"> HTML
+            <input type="checkbox" name="css"> CSS
+            <input type="checkbox" name="javascript"> JavaScript
+            <br>
+
+            <br><label>Department:</label><br>
+            <select>
+                <option>CSE</option>
+                <option>IT</option>
+                <option>ECE</option>
+                <option>EEE</option>
+            </select>
+            <br><br>
+            <div class="six">
+                <input type="submit" class="seven" value="Submit">
+                <input type="reset" class="seven" value="Reset">
+            </div>
+
+            
+
+        </form>
+    </div>
+    <br><br>
+    <hr>
+    <br><br>
+    <div class="eight">
+        <a href="https://www.svce.ac.in" target="_blank" class="nine">Visit our Official Website</a>
+        <a href="https://www.svce.ac.in/departments/" target="_blank" class="nine">| View Departments</a>
+        <a href="https://www.svce.ac.in/contact/" target="_blank" class="nine">| Contact Us</a>
+
+    </div>
+    
+    
 
 </body>
 </html>

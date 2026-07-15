@@ -1,0 +1,65 @@
+body{
+    background-color: burlywood;
+}
+
+.one {
+    background-color:rgb(120, 74, 41);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.one h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    text-align: center;
+    color:aquamarine;
+}
+.two, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgb(120, 74, 41);
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+}
+
+.three {
+    color: rgb(228, 33, 33);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.four{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.four h1{
+    text-align: center;
+    color:rgb(228, 33, 33);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.five {
+    background-color: rgb(120, 74, 41);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.six {
+    text-align: center;
+}
+.seven:hover {
+    background-color:steelblue;
+}
+.eight {
+    text-align: center;
+    background-color: rgb(12, 6, 1);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.nine:hover {
+    background-color:blueviolet;
+}
